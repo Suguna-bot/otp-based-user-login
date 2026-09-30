@@ -1,7 +1,6 @@
 import { FormEvent, useEffect, useRef, useState } from 'react'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080'
-
+const API_URL = 'https://otp-based-user-login-1m9u.onrender.com'
 interface User {
   id: number
   email: string
